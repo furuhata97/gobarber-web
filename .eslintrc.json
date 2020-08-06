@@ -29,16 +29,17 @@
     "@typescript-eslint"
   ],
   "rules": {
-    // "@typescript-eslint/ban-types": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-spreading": "off",
     "prettier/prettier": "error",
     "no-unused-expressions": "off",
     "react-hooks/rules-of-hooks": "error",
     "react/prop-types": "off",
+    "camelcase": "off",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
+    "import/no-duplicates": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
